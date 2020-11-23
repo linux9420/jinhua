@@ -11,6 +11,9 @@ public class suiJi {
             if(x==1){
                 System.out.println("("+rand.nextInt(100)/10 + 1+","+rand.nextInt(10) + 1+")");
             }
+            if(x!=1){
+                System.out.println("输入1才能获取随机坐标哟！！！");
+            }
             //System.out.println("("+rand.nextInt(100)/10 + 1+","+rand.nextInt(10) + 1+")");
             //break;
         }
