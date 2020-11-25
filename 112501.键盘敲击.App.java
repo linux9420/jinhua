@@ -9,12 +9,11 @@ public class App {
     JTextArea textArea_B=new JTextArea();
     //构造方法
     public App() {
-        //textArea_A.setText("点击上↑键输出文字");
         textArea_A.setBounds(150,100,300,150);
-        textArea_A.setBackground(Color.orange);
+        textArea_A.setBackground(Color.pink);
         myPanel.add(textArea_A);
         textArea_B.setBounds(150,300,300,150);
-        textArea_B.setBackground(Color.yellow);
+        textArea_B.setBackground(Color.cyan);
         myPanel.add(textArea_B);
 
         textArea_A.addKeyListener(new KeyAdapter() {
@@ -22,7 +21,7 @@ public class App {
             public void keyPressed(KeyEvent e) {
                 super.keyPressed(e);
                 if (e.getKeyCode() == KeyEvent.VK_UP) {
-                    textArea_B.append("点击进入上流社会！\n");
+                    textArea_B.append("嘤嘤嘤嘤嘤嘤！\n");
                 }
                 if (e.getKeyCode() == KeyEvent.VK_DOWN) {
                     textArea_B.setText("");
