@@ -23,7 +23,7 @@ public class App {
                     label_plane.setBounds(label_plane.getX()-CEll,label_plane.getY(),CEll,CEll);
                 }
                 if(e.getKeyCode()==KeyEvent.VK_RIGHT){
-                    label_plane.setBounds(label_plane.getX(),label_plane.getY()+CEll,CEll,CEll);
+                    label_plane.setBounds(label_plane.getX()+CEll,label_plane.getY(),CEll,CEll);
                 }
             }
         });
